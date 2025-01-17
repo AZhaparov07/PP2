@@ -1,0 +1,1 @@
+print("Rishat krash")
