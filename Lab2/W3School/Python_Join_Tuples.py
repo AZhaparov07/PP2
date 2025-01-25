@@ -7,5 +7,4 @@ print(tuple3)
 #Example 3
 fruits = ("apple", "banana", "cherry")
 mytuple = fruits * 2
-
 print(mytuple)
