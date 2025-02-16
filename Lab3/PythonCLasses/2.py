@@ -10,8 +10,8 @@ class Square(Shape):
         return self.length ** 2
 
 shape1 = Shape()
-print(Shape.Area())
+print(shape1.Area())
 
 square1 = Square(3)
-print(Square.Area())
+print(square1.Area())
 

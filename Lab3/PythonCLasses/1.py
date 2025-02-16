@@ -9,3 +9,5 @@ class MyClass:
 Mainstring = MyClass()
 Mainstring.getString()
 Mainstring.printString()
+x = ("Apple","Home","Python")
+print(type(x))
