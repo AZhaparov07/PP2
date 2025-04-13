@@ -75,14 +75,14 @@ while running:
     
     # Змейка
     for segment in snake:
-        pygame.draw.rect(screen, GREEN, (*segment, CELL_SIZE, CELL_SIZE))
+        pygame.draw.rect(screen, GREEN, (*segment, CELL_SIZE, CELL_SIZE)) #pygame.draw.rect(поверхность, цвет, (x, y, ширина, высота))
     
     # Еда
     pygame.draw.rect(screen, RED, (*food, CELL_SIZE, CELL_SIZE))
     
     # Счет и уровень
     font = pygame.font.Font(None, 30)
-    score_text = font.render(f"Score: {score}  Level: {level}", True, WHITE)
+    score_text = font.render(f"Score: {score}  Level: {level}", True, WHITE) #font.render(текст, сглаживание, цвет, фон)
     screen.blit(score_text, (10, 10))
     
     pygame.display.flip()
